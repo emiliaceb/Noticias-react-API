@@ -6,11 +6,11 @@ function App() {
 
   return (
     <>
-    <section className='container'>
-    <h1> DIARIO DIGITAL</h1>
-    <h2>Noticias al rededor del mundo</h2>
+    <h1 className='text-center merriweather-light py-3
+    '> DIARIO DIGITAL</h1>
+    <h2 className='text-center merriweather-light'>Noticias al rededor del mundo</h2>
     <Formulario></Formulario>
-    </section>
+   
     </>
   )
 }
